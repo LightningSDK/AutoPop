@@ -31,7 +31,7 @@
         doNotRepeat: function() {
             var exdate = new Date();
             exdate.setDate(exdate.getDate() + 365);
-            document.cookie = "autoPop=true; expires=" + exdate.toUTCString();
+            document.cookie = "autoPop=true; path=/; expires=" + exdate.toUTCString();
         }
     }
 })();
