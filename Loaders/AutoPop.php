@@ -1,9 +1,9 @@
 <?php
 
-namespace Modules\AutoPop\Loaders;
+namespace lightningsdk\autopop\Loaders;
 
-use Lightning\Tools\Request;
-use Lightning\View\JS;
+use lightningsdk\core\Tools\Request;
+use lightningsdk\core\View\JS;
 
 class AutoPop {
 
