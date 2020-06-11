@@ -1,0 +1,6 @@
+{
+  "name": "lightningsdk/checkout-stripe",
+  "type": "library",
+  "description": "Adds automatic popup window.",
+  "version": "1.0.0"
+}
