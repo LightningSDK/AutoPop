@@ -1,5 +1,5 @@
 {
-  "name": "lightningsdk/checkout-stripe",
+  "name": "lightningsdk/autopop",
   "type": "library",
   "description": "Adds automatic popup window.",
   "version": "1.0.0"
