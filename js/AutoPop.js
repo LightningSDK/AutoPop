@@ -4,7 +4,6 @@
     }
     var self = lightning.modules.autoPop = {
         init: function() {
-            console.debug('initting');
             var settings = lightning.get('autoPop');
             setTimeout(function(){
                 console.debug('setting timeout');
