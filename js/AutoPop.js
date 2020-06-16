@@ -32,5 +32,5 @@
             exdate.setDate(exdate.getDate() + 365);
             document.cookie = "autoPop=true; path=/; expires=" + exdate.toUTCString();
         }
-    }
+    };
 })();
