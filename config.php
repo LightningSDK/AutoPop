@@ -14,4 +14,9 @@ return [
             ]
         ],
     ],
+    'routes' => [
+        'static' => [
+            'autopop' => lightningsdk\autopop\Pages\AutoPop::class
+        ]
+    ]
 ];

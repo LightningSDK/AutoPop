@@ -19,7 +19,7 @@ class AutoPop {
         }
         $settings = $settings + [
                 'delay' => 30,
-                'url' => '/delayed/optin',
+                'url' => '/autopop',
                 'norepeat' => true,
             ];
 
