@@ -10,7 +10,9 @@
                 $.ajax({
                     url: settings.url,
                     dataType: 'html',
+                    // Load the contents
                     success: function(data){
+                        // Set the modal contents
                         lightning.dialog.setContent(data);
                         if (settings.norepeat) {
                             setTimeout(function(){
