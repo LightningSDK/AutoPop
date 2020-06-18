@@ -45,7 +45,7 @@
     (function(){
         var optinSection = $('#optin_section');
         optinSection.foundation();
-        optinSection.find('form').on('valid.fndtn.abide', function(){
+        optinSection.find('form').on('formvalid.zf.abide', function(){
             $.ajax({
                 url: '/api/optin',
                 method: 'POST',
