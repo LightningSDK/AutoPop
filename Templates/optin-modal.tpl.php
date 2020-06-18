@@ -43,8 +43,8 @@
 <?php endif; ?>
 <script>
     (function(){
-        $(document).foundation('abide', 'reflow');
         var optinSection = $('#optin_section');
+        optinSection.foundation();
         optinSection.find('form').on('valid.fndtn.abide', function(){
             $.ajax({
                 url: '/api/optin',

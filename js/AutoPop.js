@@ -1,8 +1,5 @@
 (function(){
-    if (lightning.modules.autoPop) {
-        return;
-    }
-    var self = lightning.modules.autoPop = {
+    var self = {
         init: function() {
             var settings = lightning.get('autoPop');
             setTimeout(function(){
@@ -35,4 +32,5 @@
             document.cookie = "autoPop=true; path=/; expires=" + exdate.toUTCString();
         }
     };
+    lightning.js.addModule("autoPop", self);
 })();
