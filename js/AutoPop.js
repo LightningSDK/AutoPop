@@ -1,7 +1,7 @@
 (function(){
     var self = {
         init: function() {
-            var settings = lightning.get('autoPop');
+            var settings = lightning.get('autopop');
             setTimeout(function(){
                 console.debug('setting timeout');
                 $.ajax({
